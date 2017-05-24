@@ -10,28 +10,250 @@
   <meta name="author" content="Saurabh Banore">
 
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700" rel="stylesheet">
   <link type="text/css" href="css/materialize.min.css" rel="stylesheet">
-
+  <link type="text/css" href="css/custom-css.css" rel="stylesheet">
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
 <body>
-  <div class="container">
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Saurabh Banore</a>
+  <div class="navbar-fixed">
+    <nav class="white">
+        <a href="#" style="color:#333;">Saurabh Banore</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li>Home</li>
-          <li>About Me</li>
-          <li>Projects</li>
-          <li>Resume</li>
-
+          <li><a href="#home" class="nav-text">Home</a></li>
+          <li><a href="#about" class="nav-text">About Me</a></li>
+          <li><a href="#about" class="nav-text">Education</a></li>
+          <li><a href="#projects" class="nav-text">Projects</a></li>
+          <li><a href="#about" class="nav-text">Skills</a></li>
+          <li><a href="#resume" class="nav-text">Resume</a></li>
         </ul>
-      </div>
     </nav>
   </div>
+    <div id="home" class="pink-back">
+
+    </div>
+
+    <div id="about" class="yellow-back">
+      <div class="container">
+        <div class="summary ">
+            <div class="row">
+              <div class="all-headers col s3 offset-s5">About Me</div>
+            </div>
+            <div class="row">
+              <div class="all-texts col s12">
+                Currently a 4th year undergraduate student in Jawaharlal Nehru Engineering College, Aurangabad. My areas of strength are
+                <bl>
+                  <li>Algorithms and data structures</li>
+                  <li>Competitive Programming</li>
+                  <li>Web Development</li>
+                </bl>
+                <br/>
+                Along with this I am also interested in
+                <bl>
+                  <li>Machine learning</li>
+                  <li>Android development</li>
+                </bl>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="education" class="edu-back">
+      <div class="container">
+        <div class="education-details">
+            <div class="row">
+              <div class="all-headers col s3 offset-s5">Education</div>
+            </div>
+            <div class="row">
+              <div class="all-texts col s6">
+                <b>B.E. (Computer Science Engineering)</b>
+              </div>
+              <div class="all-texts col s4 offset-s2">
+                2014-2018
+              </div>
+              <div class="mst-300">&nbsp  Jawaharlal Nehru Engineering College, Aurangabad (MS)</div>
+              <div class="mst-300">&nbsp  Aggregate: 76.6 %</div>
+          </div>
+
+          <div class="row">
+            <div class="all-texts col s6">
+              <b>All India Senior School Examination</b>
+            </div>
+            <div class="all-texts col s4 offset-s2">
+              2013-2014
+            </div>
+            <div class="mst-300">&nbsp  Jawahar Navodaya Vidyalaya, Washim (MS)</div>
+            <div class="mst-300">&nbsp  88.6%</div>
+        </div>
+
+        <div class="row">
+          <div class="all-texts col s6">
+            <b>All India Secondary School Examination</b>
+          </div>
+          <div class="all-texts col s4 offset-s2">
+            2011-2012
+          </div>
+          <div class="mst-300">&nbsp  Jawahar Navodaya Vidyalaya, Washim (MS)</div>
+          <div class="mst-300">&nbsp  10.00 CGPA</div>
+      </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="projects" class="pro-back">
+      <div class="container">
+        <div class="project-details">
+          <div class="row">
+            <div class="all-headers col s3 offset-s5">Projects</div>
+          </div>
+          <div class="all-texts">
+            <b>Alumni Portal</b>
+          </div>
+          <br/>
+          <div class="mst-300">
+            A live web app developed using php, mysql deployed for JNV Washim, in 2nd year of engineering.
+            This portal has more than 100 registrations.It provides functionalities such as
+            <bl>
+              <li>Alumni registration</li>
+              <li>Alumni lookup with different combinations</li>
+              <li>Attractive User interface</li>
+              <li>Basic security features</li>
+            </bl>
+            <br/>
+            <a href="www.jnvwashimalumni.org" class="waves-effect waves-light btn">View project</a>
+          </div>
+          <br/>
+          <div class="row mst-300">
+            <div class="col s12">
+              <span class="skill" data-badge-caption="">PHP</span><span class="skill" data-badge-caption="">MySQL</span><span class="skill" data-badge-caption="">Javascript</span><span class="skill" data-badge-caption="">AJAX</span><span class="skill" data-badge-caption="">HTML5</span>
+               <span class="skill" data-badge-caption="">CSS3</span>      <span class="skill" data-badge-caption="">Bootstrap</span>
+            </div>
+          </div>
+
+        </div>
+
+
+
+        <div class="project-details">
+          <div class="all-texts">
+            <b>Godspeed (An Android Application)</b>
+          </div>
+          <br/>
+          <div class="mst-300">
+            Godspeed is an Android application based on web scraping for the students of JNEC, Aurangabad
+It needs your user ID and password to log into your ERP account where all the attendance record is maintained, then it scrapes the data and represents in into your mobiles in a consistent and atrractive UI, using this data it also helps you to manage your bunks safely by notifying the number of safe bunks left.
+            <br/><br/>
+            <a href="www.github.com/banoresaurabh/godspeed" class="waves-effect waves-light btn">View project</a>
+          </div>
+          <br/>
+          <div class="row mst-300">
+            <div class="col s12">
+              <span class="skill" data-badge-caption="">Android</span><span class="skill" data-badge-caption="">Java</span> <span class="skill" data-badge-caption="">Git</span><span class="skill" data-badge-caption="">Web Scraping</span><span class="skill" data-badge-caption="">Django</span><span class="skill" data-badge-caption="">Heroku</span>
+
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="project-details">
+          <div class="all-texts">
+            <b>A Web app for Training and placement dept. JNEC A'bad</b>
+          </div>
+          <br/>
+          <div class="mst-300">
+            ​A Web app for JNEC Aurangabad, which will save a lot of manual efforts and automate the tasks of Training and Placement
+​ dept. Such as maintaining the records of all the students, generating charts, Filtering students
+eligible for companies with some particular criteria which used to take hours.
+            <br/><br/>
+            <a href="www.github.com/banoresaurabh/t-and-p-app" class="waves-effect waves-light btn">View project</a>
+          </div>
+          <br/>
+          <div class="row mst-300">
+            <div class="col s12">
+              <span class="skill" data-badge-caption="">PHP</span><span class="skill" data-badge-caption="">Google Chart API</span><span class="skill" data-badge-caption="">AJAX</span><span class="skill" data-badge-caption="">MySQL</span> <span class="skill" data-badge-caption="">Git</span><span class="skill" data-badge-caption="">Bootstrap</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="project-details">
+          <div class="all-texts">
+            <b>Hobby projects</b>
+          </div>
+          <br/>
+          <div class="mst-300">
+            <bl>
+              <li>​Developed a car game using javascript and HTML5 canvas</li>
+              <li>Github repository of implementations of data structures and algorithms in C++​</li>
+              <li>Desktop application in python similar to Autohotkey</li>
+            </bl>
+            <br/><br/>
+            <a href="www.github.com/banoresaurabh" class="waves-effect waves-light btn">View projects</a>
+          </div>
+          <br/>
+          <div class="row mst-300">
+            <div class="col s12">
+              <span class="skill" data-badge-caption="">C++</span><span class="skill" data-badge-caption="">Data Structures And Algorithms</span><span class="skill" data-badge-caption="">Canvas</span><span class="skill" data-badge-caption="">PyHook</span><span class="skill" data-badge-caption="">PyAutoGui</span>
+              <span class="skill" data-badge-caption="">Javascript</span> <span class="skill" data-badge-caption="">Git</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+    <div id="skills" class="skill-back">
+      <div class="container">
+        <div class="skill-details">
+            <div class="row">
+              <div class="all-headers col s3 offset-s5">Skills</div>
+            </div>
+            <div class="row">
+              <div class="all-texts col s12">
+                <b>Programming Languages: </b>&nbsp<span class="skill" data-badge-caption="">C++</span><span class="skill" data-badge-caption="">Java</span><span class="skill" data-badge-caption="">Python</span><span class="skill" data-badge-caption="">C# (Novice)</span>
+              </div>
+          </div>
+
+
+          <div class="row">
+            <div class="all-texts col s12">
+              <b>Web technologies & Languages: </b>&nbsp<span class="skill" data-badge-caption="">HTML5</span><span class="skill" data-badge-caption="">CSS3</span><span class="skill" data-badge-caption="">PHP</span><span class="skill" data-badge-caption="">javascript</span><span class="skill" data-badge-caption="">AJAX</span>
+              <span class="skill" data-badge-caption="">Bootstrap</span>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="all-texts col s12">
+              <b>Version Control System: </b>&nbsp<span class="skill" data-badge-caption="">Git</span>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="all-texts col s12">
+              <b>Operating system: </b>&nbsp<span class="skill" data-badge-caption="">Ubuntu 16.04 (Xenial Xerus)</span>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+
   <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>
