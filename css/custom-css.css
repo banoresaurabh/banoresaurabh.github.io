@@ -8,12 +8,32 @@
   color: #333;
 }
 .pink-back{
-  background-color: #EE6E73;
-  height: 35em;
+  padding: 10em;
+  background-color: #4C5364;
+}
+.test{
+  font-family: 'Londrina Solid', cursive;
+  font-weight: 300
+}
+.saurabh,.banore{
+    font-size: 6em;
+    color: white;
 }
 
+.hellower{
+  font-size: 2em;
+  color: white;
+}
+
+.brand{
+  font-family: 'Lobster', cursive;
+  font-size: 1.8em;
+  margin: 2em;
+  color: #4C5364;
+  -webkit-transform: rotate(-10deg) skew(-10deg, 0);
+}
 .yellow-back{
-  background-color: #FAC05E;
+  background-color: #9CDE9F;
   padding-bottom: 5em;
 }
 .edu-back{
@@ -23,6 +43,10 @@
 .pro-back{
   background-color: #EEEEEE;
   padding-bottom: 5em;
+}
+.skill-back{
+  background-color:#DDDDDD;
+  padding-bottom: 4em ;
 }
 
 .all-headers{
@@ -77,4 +101,47 @@
 .project-details{
   padding-bottom: 2em;
   border-bottom: 1px solid white;
+}
+
+
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.resume-back{
+  padding: 5em;
+  background-color: #FED766;
+}
+.footer-back{
+  background-color: #4C5364;
+  padding: 3em;
+}
+.resume{
+  font-size: 3em;
+}
+.dn-icon{
+  font-size: 10em;
+}
+
+.footer-txt{
+  color: white;
 }
