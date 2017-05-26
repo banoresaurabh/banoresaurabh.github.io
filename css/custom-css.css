@@ -1,3 +1,7 @@
+.org-ic{
+  margin-right: 2.5em;
+  filter: contrast(100);
+}
 .white{
     box-shadow: none;
     height: 7em;
@@ -134,6 +138,7 @@
 .footer-back{
   background-color: #4C5364;
   padding: 2.0em;
+  text-align: center;
 }
 .resume{
   font-size: 3em;
