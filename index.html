@@ -15,6 +15,8 @@
   <link href="img/coffee.ico" rel="icon" type="image/x-ixon">
   <link type="text/css" href="css/materialize.min.css" rel="stylesheet">
   <link type="text/css" href="css/custom-css.css" rel="stylesheet">
+  <link type="text/css" href="css/animate.css" rel="stylesheet" >
+
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -22,18 +24,26 @@
 </head>
 
 <body>
+
+  <ul id="dropdown1" class="dropdown-content" style="width: 500px !important">
+    <li><a href="#home" class="nav-text  animated fadeIn">Home</a></li>
+    <li><a href="#about" class="nav-text  animated fadeIn">About Me</a></li>
+    <li><a href="#education" class="nav-text  animated fadeIn">Education</a></li>
+    <li><a href="#skills" class="nav-text  animated fadeIn">Skills</a></li>
+    <li><a href="#projects" class="nav-text  animated fadeIn">Projects</a></li>
+    <li><a href="#resume" class="nav-text  animated fadeIn">Resume</a></li>
+  </ul>
+
   <div class="navbar-fixed">
-    <nav class="white mst-700">
-        <a href="#" style="color:#333;"><span  class="brand">Saurabh Banore</span></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#home" class="nav-text ">Home</a></li>
-          <li><a href="#about" class="nav-text ">About Me</a></li>
-          <li><a href="#education" class="nav-text ">Education</a></li>
-          <li><a href="#projects" class="nav-text ">Projects</a></li>
-          <li><a href="#skills" class="nav-text ">Skills</a></li>
-          <li><a href="#resume" class="nav-text ">Resume</a></li>
+    <nav class="white mst-300">
+      <div class="nav-wrapper">
+        <a href="#!" class=" brand animated fadeIn" style="color:#4C5364; margin-left:2em;">Saurabh Banore</a>
+        <ul class="right" style="margin-right:2em;">
+          <li><a href="#"  class="dropdown-button nav-text" data-activates="dropdown1"><img src="img/menu.svg"/></a></li>
         </ul>
+      </div>
     </nav>
+
   </div>
     <div id="home" class="pink-back">
       <div class="container">
@@ -54,7 +64,8 @@
             </div>
             <div class="row">
               <div class="all-texts col s12">
-                Currently a 4th year undergraduate student in Jawaharlal Nehru Engineering College, Aurangabad. I am passionate about programming and problem solving. My areas of strength are
+                Currently a 4th year undergraduate student in Jawaharlal Nehru Engineering College, Aurangabad. I am passionate about programming and problem solving.<br/> <br/>My core competencies are
+
                 <bl>
                   <li>Algorithms and data structures</li>
                   <li>Competitive Programming</li>
@@ -68,7 +79,7 @@
                 </bl>
               </div>
             </div>
-            <div class="all-texts">This are the links to some of my profiles</div>
+            <div class="all-texts">This are some of my profiles</div>
             <br/>
             <div class="row">
                 <div class="col s11 offset-s1">
@@ -76,7 +87,7 @@
                 &nbsp
                 <a href="http://codechef.com/users/banoresaurabh" target="_blank" ><img src="img/codechef.png" class="circle org-ic tooltipped" style="" data-delay="0" data-tooltip="Codechef" width="40em" height="40em"/></a>
                 &nbsp
-                <a href="http://codeforces.com/profile/sierra_bravo" target="_blank" ><img src="img/codeforces.svg" class="circle org-ic tooltipped " data-delay="0" data-tooltip="Codeforces" width="40em" height="40em"/></a>
+                <a href="http://codeforces.com/profile/sierra_bravo" target="_blank" ><img src="img/codeforces.svg" class=" org-ic tooltipped " data-delay="0" data-tooltip="Codeforces" width="40em" height="40em"/></a>
                 &nbsp
                 <a href="http://www.github.com/banoresaurabh" target="_blank" ><img src="img/github.svg" class="circle org-ic tooltipped " data-delay="0" data-tooltip="Github" width="40em" height="40em"/></a>
                 &nbsp
@@ -86,9 +97,8 @@
                 &nbsp
                 <a href="https://www.quora.com/ICPCID/PU2K9UJR2VTE" target="_blank" ><img src="img/quora.svg" class="circle org-ic tooltipped " data-delay="0" data-tooltip="Quora" width="40em" height="40em"/></a>
                 &nbsp
-                <a href="https://www.facebook.com/saurabh.banore.1" target="_blank" ><img src="img/facebook.svg" class="circle org-ic tooltipped " data-delay="0" data-tooltip="Facebook" width="40em" height="40em"/></a>
-                &nbsp
-                <a href="https://twitter.com/SaurabhBanore" target="_blank" ><img src="img/twitter.svg" class="circle org-ic tooltipped " data-delay="0" data-tooltip="Twitter" width="40em" height="40em"/></a>
+
+                <a href="https://twitter.com/SaurabhBanore" target="_blank" ><img src="img/twitter.svg" class=" org-ic tooltipped " data-delay="0" data-tooltip="Twitter" width="40em" height="40em"/></a>
               </div>
             </div>
 
@@ -136,6 +146,40 @@
           <div class="mst-300">&nbsp  Jawahar Navodaya Vidyalaya, Washim (MS)</div>
           <div class="mst-300">&nbsp  10.00 CGPA</div>
       </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="skills" class="skill-back">
+      <div class="container">
+        <div class="skill-details">
+            <div class="row">
+              <div class="all-headers col s3 offset-s5">Skills</div>
+            </div>
+            <div class="row">
+              <div class="all-texts col s12">
+                <b>Programming Languages: </b>&nbsp<span class="skill" data-badge-caption="">C++</span><span class="skill" data-badge-caption="">Java</span><span class="skill" data-badge-caption="">Python</span><span class="skill" data-badge-caption="">C# (Novice)</span>
+              </div>
+          </div>
+          <div class="row">
+            <div class="all-texts col s12">
+              <b>Web technologies & Languages: </b>&nbsp<span class="skill" data-badge-caption="">HTML5</span><span class="skill" data-badge-caption="">CSS3</span><span class="skill" data-badge-caption="">PHP</span><span class="skill" data-badge-caption="">javascript</span><span class="skill" data-badge-caption="">AJAX</span>
+              <span class="skill" data-badge-caption="">Bootstrap</span>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="all-texts col s12">
+              <b>Version Control System: </b>&nbsp<span class="skill" data-badge-caption="">Git</span>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="all-texts col s12">
+              <b>Operating system: </b>&nbsp<span class="skill" data-badge-caption="">Ubuntu 16.04 (Xenial Xerus)</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -247,39 +291,35 @@ eligible for companies with some particular criteria which takes hours.
 
 
 
-
-
-
-    <div id="skills" class="skill-back">
+    <div id="aaa" class="aaa-back">
       <div class="container">
-        <div class="skill-details">
-            <div class="row">
-              <div class="all-headers col s3 offset-s5">Skills</div>
-            </div>
-            <div class="row">
-              <div class="all-texts col s12">
-                <b>Programming Languages: </b>&nbsp<span class="skill" data-badge-caption="">C++</span><span class="skill" data-badge-caption="">Java</span><span class="skill" data-badge-caption="">Python</span><span class="skill" data-badge-caption="">C# (Novice)</span>
-              </div>
-          </div>
-
-
+        <div class="aaa-details">
           <div class="row">
-            <div class="all-texts col s12">
-              <b>Web technologies & Languages: </b>&nbsp<span class="skill" data-badge-caption="">HTML5</span><span class="skill" data-badge-caption="">CSS3</span><span class="skill" data-badge-caption="">PHP</span><span class="skill" data-badge-caption="">javascript</span><span class="skill" data-badge-caption="">AJAX</span>
-              <span class="skill" data-badge-caption="">Bootstrap</span>
-            </div>
+            <div class="all-headers col s7 offset-s3">Awards and Achievements</div>
           </div>
-
-          <div class="row">
-            <div class="all-texts col s12">
-              <b>Version Control System: </b>&nbsp<span class="skill" data-badge-caption="">Git</span>
-            </div>
+          <br/><br/>
+          <div>
+            <i class="material-icons">star</i>&nbsp&nbsp<span class="mst-300 all-texts">Selected for ACM-ICPC onsite regionals Amritapuri 2016</span>
           </div>
-
-          <div class="row">
-            <div class="all-texts col s12">
-              <b>Operating system: </b>&nbsp<span class="skill" data-badge-caption="">Ubuntu 16.04 (Xenial Xerus)</span>
-            </div>
+          <br/>
+          <div>
+            <i class="material-icons">star</i>&nbsp&nbsp<span class="mst-300 all-texts">Competitive programming: 3 bronze medals on Hackerrank in various programming contests</span>
+          </div>
+          <br/>
+          <div>
+            <i class="material-icons">star</i>&nbsp&nbsp<span class="mst-300 all-texts">Winner of an coding contest ‘Stack overflow’ 2016 conducted by ‘Computer Society of India’</span>
+          </div>
+          <br/>
+          <div>
+            <i class="material-icons">star</i>&nbsp&nbsp<span class="mst-300 all-texts">Winner of a coding contest ‘Code relay’ in a national level technical event ‘Agnitio 2017’</span>
+          </div>
+          <br/>
+          <div>
+            <i class="material-icons">star</i>&nbsp&nbsp<span class="mst-300 all-texts">Awarded with “Scout Rajya Puraskar” as a scout in JNV Washim 2011 for outstanding performance in scouting</span>
+          </div>
+          <br/>
+          <div>
+            <i class="material-icons">star</i>&nbsp&nbsp<span class="mst-300 all-texts">Represented JNV Washim at Regional Table tennis tournamentat JNV Solapur twice</span>
           </div>
 
 
@@ -288,6 +328,8 @@ eligible for companies with some particular criteria which takes hours.
         </div>
       </div>
     </div>
+
+
 
 
 
@@ -307,11 +349,25 @@ eligible for companies with some particular criteria which takes hours.
 
     <div id="footer" class="footer-back">
         <div class="row">
-          <div class="col s4 offset-s4 mst-300 footer-txt">Handmade by Saurabh Banore &copy 2017</div>
-
+          <div class="col s4 mst-300 footer-txt">Handmade by Saurabh Banore &copy 2017</div>
+          <div class="right" style="margin-right:2em;"><a href="#modal1" class="mst-300 footer-txt hoverable">Contact me</a></div>
         </div>
     </div>
   </div>
+
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal bottom-sheet">
+      <div class="modal-content">
+        <div class="row">
+          <div class="col s5 offset-s2"><i class=" material-icons">email</i>&nbsp<span class="icon-text mst-300">banoresaurabh@gmail.com</span></div>
+          <div class="col s5"><i class=" material-icons">phone</i>&nbsp<span class="icon-text mst-300">(+91) 9552307569</span></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
+      </div>
+    </div>
 
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/typed.js-master/js/typed.js"></script>
@@ -324,6 +380,11 @@ eligible for companies with some particular criteria which takes hours.
           backDelay: 1500
         });
     });
+
+    $(document).ready(function(){
+        $('.modal').modal();
+      });
+
 </script>
 </body>
 </html>

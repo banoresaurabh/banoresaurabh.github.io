@@ -8,11 +8,16 @@
     line-height: 7em;
 }
 
+
 .nav-text{
   color: #333;
 }
+.dropdown-content{
+  color: #333;
+}
 .pink-back{
-  padding: 10em;
+  padding:11em;
+  margin-top: 2em;
   background-color: #4C5364;
 }
 .test{
@@ -32,12 +37,10 @@
 .brand{
   font-family: 'Lobster', cursive;
   font-size: 1.8em;
-  margin: 2em;
   color: #4C5364;
-  -webkit-transform: rotate(-10deg) skew(-10deg, 0);
 }
 .yellow-back{
-  background-color: #9CDE9F;
+  background-color: #CACF85;
   padding-bottom: 5em;
 }
 .edu-back{
@@ -45,12 +48,16 @@
   padding-bottom: 5em;
 }
 .pro-back{
-  background-color: #EEEEEE;
+  background-color: #DDDDDD;
   padding-bottom: 5em;
 }
 .skill-back{
-  background-color:#DDDDDD;
+  background-color:#EEEEEE;
   padding-bottom: 4em ;
+}
+.aaa-back{
+  background-color:#EEEEEE;
+  padding-bottom: 5em ;
 }
 
 .all-headers{
@@ -138,7 +145,6 @@
 .footer-back{
   background-color: #4C5364;
   padding: 2.0em;
-  text-align: center;
 }
 .resume{
   font-size: 3em;
@@ -150,7 +156,6 @@
 .footer-txt{
   color: white;
 }
-
 
 
 @font-face {
@@ -172,4 +177,9 @@ display: inline-block;
 word-wrap: normal;
 -webkit-font-feature-settings: 'liga';
 -webkit-font-smoothing: antialiased;
+}
+
+
+.material-icons, .icon-text {
+  vertical-align: middle;
 }
