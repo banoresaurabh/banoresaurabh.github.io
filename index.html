@@ -47,15 +47,17 @@
 
   </div>
     <div id="home" class="pink-back">
-      <div class="container">
+      <!---------<div class="container">-->
+        <div class="container">
         <div class="row">
-          <div class="hellower  col s6 offset-s4"><span class="test"> Hello World! I am</span></div>
+          <div class="hellower col s6 offset-s4"><span class="test"> Hello World! I am</span></div>
         </div>
         <div class="row">
-          <div class="saurabh col s6 "><span class="test"> > Saurabh</span></div><div class="banore col s6"><span id="binary" class="test"></span></div>
+          <div class="saurabh col s12"><span class="test">>Saurabh</span><span id="binary" class="test"></span></div>
         </div>
       </div>
-    </div>
+        </div>
+    <!---</div>--->
 
     <div id="about" class="yellow-back">
       <div class="container">
@@ -380,7 +382,7 @@ eligible for companies with some particular criteria which takes hours.
   <script>
     document.addEventListener('DOMContentLoaded', function(){
         Typed.new('#binary', {
-          strings: ["Binary.", "Banore."],
+          strings: [" Binary", " Banore"],
           typeSpeed: 100,
           backDelay: 1500
         });
