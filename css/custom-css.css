@@ -1,3 +1,7 @@
+html, body {
+  overflow-x: hidden;
+}
+
 .org-ic{
   margin-right: 2.5em;
   filter: contrast(100);
