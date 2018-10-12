@@ -473,23 +473,19 @@ It needs your user ID and password to log into your ERP account where all the at
   <script>window.botpressWebChat.init({ host: 'https://floating-wave-71602.herokuapp.com' ,
                                         botName: 'Bot', // Name of your bot
                                         botAvatarUrl: 'https://raw.githubusercontent.com/banoresaurabh/banoresaurabh.github.io/master/insite%20draft%20character-page-001.jpg', // Default avatar url of the image (e.g. 'https://avatars3.githubusercontent.com/u/1315508?v=4&s=400' )
-                                        botConvoTitle: 'IT Innovation Bot', // Title of the first conversation with the bot
+                                        botConvoTitle:'IT Innovation Bot', // Title of the first conversation with the bot
                                         botConvoDescription: '',
                                         backgroundColor: '#ffffff', // Color of the background
                                         textColorOnBackground: '#666666', // Color of the text on the background
                                         foregroundColor: '#0176ff', // Element background color (header, composer, button..)
                                         textColorOnForeground: '#ffffff', // Element text color (header, composer, button..)
-                                        showUserName: false, // Whether or not to show the user's name
-                                        showUserAvatar: false, // Whether or not to show the user's avatar
+                                        showUserName: true, // Whether or not to show the user's name
+                                        showUserAvatar: true, // Whether or not to show the user's avatar
                                         enableTranscriptDownload: true, // Whether or not to show the transcript download button
                                         customStylesheet: 'botcss.css', // Url to custom .css file
-                                        greetingScreen: {
-                                          type: 'get_started', // If you want to see "Get started" button you need to change it to 'get_started'
-                                          options: {
-                                            buttonTitle: 'Get Started',
-                                            message: ''
-                                          }
-                                        }
+                                        welcomeMsgEnable: true,
+                                        welcomeMsgDelay: 1000,
+                                        welcomeMsgText: 'Hey I am the new IT innovation bot ! How can I help you ?'
                        
                                      })</script>
 <!-----------------------------/ Bot test ------------->
