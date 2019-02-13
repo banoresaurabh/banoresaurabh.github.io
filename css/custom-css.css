@@ -1,49 +1,128 @@
 
+/* html {
+  font-size: 62.5%;
+} */
+/* .btn {
+  font-size: 1.5rem;
+}
+
+body{
+  font-size: 1.5rem;
+} */
+
 .org-ic{
-  margin-right: 2.5em;
-  filter: contrast(100);
+  /* margin-right: 2.5em; */
+  margin-left: .5rem;
+  margin-right: .5rem;
+  /* filter: contrast(80); */
 }
 .white{
     box-shadow: none;
     height: 7em;
     line-height: 7em;
 }
+.name {
+  border: 2px solid red;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: 500;
+}
 
+h1 {
+  font-size: 4rem;
+}
 
+@media screen and (min-width: 1473px) {
+  #name2, #hello {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1472px) {
+  #name1 {
+    display: none;
+  }
+
+  .name {
+    width: 45rem;
+  }
+
+}
+
+@media screen and (max-width: 668px) {
+  #name1 {
+    display: none;
+  }
+
+  .name {
+    width: 35rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+}
 .nav-text{
   color: #333;
 }
 .dropdown-content{
   color: #333;
 }
-.pink-back{
-  padding:11em;
-  margin-top: 2em;
-  background-color: #4C5364;
-}
-.test{
-  font-family: 'Londrina Solid', cursive;
-  font-weight: 300
-}
-.saurabh,.banore{
-    font-size: 6em;
-    color: white;
+.grey-back{
+  border: red 2px solid;
+  padding-top: 6em;
+  padding-bottom:6em;
+  background-color: rgb(41, 41, 41);
+
 }
 
-.hellower{
-  font-size: 2em;
+.intro {
+  border: green 2px solid;
+  font-family: 'Montserrat', sans-serif;
   color: white;
+  font-size: 2rem;
+  /* font-weight: 100; */
 }
+
+.title {
+  text-align: center;
+}
+
+
+
+.media-channels {
+  margin-top: 1.5rem;
+  text-align: center;
+  color: white;
+  border: greenyellow 2px dashed;
+  width: 100%;
+}
+
 
 .brand{
   font-family: 'Lobster', cursive;
   font-size: 1.8em;
   color: #4C5364;
 }
-.yellow-back{
-  background-color: #CACF85;
-  padding-bottom: 5em;
+.about-me{
+  background-color: white;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
 }
+
+#saurabh-photo {
+  object-fit: contain;
+  margin-top: 3.46rem;
+  /* width: 40%; */
+  /* position: absolute; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: calc(100% - 30px);
+  border: 20px solid white;
+  /* box-sizing: border-box; */
+}
+
 .edu-back{
   background-color: #EEEEEE;
   padding-bottom: 5em;
@@ -176,7 +255,7 @@ letter-spacing: normal;
 text-transform: none;
 display: inline-block;
 word-wrap: normal;
--webkit-font-feature-settings: 'liga';
+/* -webkit-font-feature-settings: 'liga'; */
 -webkit-font-smoothing: antialiased;
 }
 
