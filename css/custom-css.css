@@ -22,7 +22,6 @@ body{
     line-height: 7em;
 }
 .name {
-  border: 2px solid red;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Ubuntu Mono', monospace;
@@ -71,7 +70,6 @@ h1 {
   color: #333;
 }
 .grey-back{
-  border: red 2px solid;
   padding-top: 6em;
   padding-bottom:6em;
   background-color: rgb(41, 41, 41);
@@ -79,7 +77,6 @@ h1 {
 }
 
 .intro {
-  border: green 2px solid;
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 2rem;
@@ -96,7 +93,6 @@ h1 {
   margin-top: 1.5rem;
   text-align: center;
   color: white;
-  border: greenyellow 2px dashed;
   width: 100%;
 }
 
@@ -110,20 +106,21 @@ h1 {
   background-color: white;
   padding-top: 3rem;
   padding-bottom: 6rem;
+  text-align: justify;
 }
 
 #saurabh-photo {
   object-fit: contain;
   margin-top: 3.46rem;
-  /* width: 40%; */
-  /* position: absolute; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  max-width: calc(100% - 30px);
-  border: 20px solid white;
+  max-width: calc(100% - 35px);
+  border: 25px solid white;
+
   /* box-sizing: border-box; */
 }
 
 .edu-back{
+  padding-top: 1rem;
   background-color: #EEEEEE;
   padding-bottom: 5em;
 }
