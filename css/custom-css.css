@@ -72,7 +72,9 @@ h1 {
   text-align: center;
 }
 
-
+#together-button {
+  margin: 1.5em;
+}
 
 .media-channels {
   margin-top: 1em;
