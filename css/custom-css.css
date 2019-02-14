@@ -1,20 +1,6 @@
-
-/* html {
-  font-size: 62.5%;
-} */
-/* .btn {
-  font-size: 1.5rem;
-}
-
-body{
-  font-size: 1.5rem;
-} */
-
 .org-ic{
-  /* margin-right: 2.5em; */
   margin-left: .5rem;
   margin-right: .5rem;
-  /* filter: contrast(80); */
 }
 .white{
     box-shadow: none;
@@ -80,7 +66,6 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 2rem;
-  /* font-weight: 100; */
 }
 
 .title {
@@ -90,7 +75,7 @@ h1 {
 
 
 .media-channels {
-  margin-top: 1.5rem;
+  margin-top: 1em;
   text-align: center;
   color: white;
   width: 100%;
