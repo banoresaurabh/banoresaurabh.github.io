@@ -1,0 +1,4 @@
+baseURL = 'https://banoresaurabh.github.io'
+languageCode = 'en-us'
+title = 'Saurabh Portfolio Website'
+theme = 'resume'
