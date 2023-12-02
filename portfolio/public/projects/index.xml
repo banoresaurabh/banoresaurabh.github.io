@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Saurabh Portfolio Website</title>
+    <link>https://banoresaurabh.github.io/projects/</link>
+    <description>Recent content in Projects on Saurabh Portfolio Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jan 2020 17:09:26 +0000</lastBuildDate>
+    <atom:link href="https://banoresaurabh.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
